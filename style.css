@@ -19,7 +19,6 @@ body{
     align-items: center;
     margin-top: 40px;
     width: 100%;
-    
 }
 
 h2{
@@ -83,6 +82,10 @@ button:hover{
 
 #cls-btn-in{
     background-color: rgb(238, 45, 45);
+}
+
+#cls-btn-in:hover{
+    background-color: rgb(250, 46, 46);
 }
 
 .div-zmda-row{
