@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="head-div">
+        <h2>CALCULATOR</h2>
+    </div>
+    <div class="calculator">
+        <form action="">
+            <div class="all-form-things">
+                <div id="display"></div>
+                <div class="cls-btn"><button type="button" onclick="pushing('C')" id="cls-btn-in">C</button></div>
+                <div class="div-senp-row">
+                    <button type="button" id="val-7" onclick="pushing('7')" value="7">7</button>
+                    <button type="button" id="val-8" onclick="pushing('8')" value="8">8</button>
+                    <button type="button" id="val-9" onclick="pushing('9')" value="9">9</button>
+                    <button type="button" id="val-pl" onclick="pushing('+')" value="+">+</button>
+                </div>
+                <div class="div-ffsm-row">
+                    <button type="button" id="val-4" onclick="pushing('4')" value="4">4</button>
+                    <button type="button" id="val-5" onclick="pushing('5')" value="5">5</button>
+                    <button type="button" id="val-6" onclick="pushing('6')" value="6">6</button>
+                    <button type="button" id="val-m" onclick="pushing('-')" value="-">-</button>
+                </div>
+                <div class="div-ottd-row">
+                    <button type="button" id="val-1" onclick="pushing('1')" value="1">1</button>
+                    <button type="button" id="val-2" onclick="pushing('2')" value="2">2</button>
+                    <button type="button" id="val-3" onclick="pushing('3')" value="3">3</button>
+                    <button type="button" id="val-po" onclick="pushing('.')" value=".">.</button>
+                </div>
+                <div class="div-zmda-row">
+                    <button type="button" id="val-z" onclick="pushing('0')" value="0">0</button>
+                    <button type="button" id="val-s" onclick="pushing('*')" value="*">*</button>
+                    <button type="button" id="val-d" onclick="pushing('/')" value="/">/</button>
+                    <button type="button" id="val-a" onclick="pushing('=')" value="=">=</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
